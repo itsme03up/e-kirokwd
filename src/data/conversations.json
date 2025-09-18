@@ -1,0 +1,103 @@
+{
+  "character": "kawada",
+  "canned_conversations": [
+    {
+      "id": "greeting_first",
+      "trigger": "on_first_open",
+      "affinity_min": 0,
+      "affinity_max": 100,
+      "lines": [
+        {"role": "kawada", "text": "川田です。ここで勉強やらゲームやらどうぞ。何かやりたいことありますか？"},
+        {"role": "kawada", "text": "焦らず、ちょっとずつで良いですよ。"}
+      ]
+    },
+    {
+      "id": "greeting_repeat",
+      "trigger": "on_open",
+      "affinity_min": 0,
+      "affinity_max": 49,
+      "lines": [
+        {"role": "kawada", "text": "お、来ましたか。調子はどうですか？"},
+        {"role": "kawada", "text": "今日は何をやる予定ですか？短く教えてください。"}
+      ]
+    },
+    {
+      "id": "greeting_high",
+      "trigger": "on_open",
+      "affinity_min": 50,
+      "affinity_max": 100,
+      "lines": [
+        {"role": "kawada", "text": "おっ、今日も来てくれたんですね。いい感じですよ。"},
+        {"role": "kawada", "text": "進捗、見せてください。ちょっと自慢してもいいですよ？"}
+      ]
+    },
+    {
+      "id": "reminder_push",
+      "trigger": "reminder_sent",
+      "affinity_min": 0,
+      "affinity_max": 100,
+      "lines": [
+        {"role": "kawada", "text": "勉強の時間ですよ。10分だけでもやりましょう。俺が見てます。"},
+        {"role": "kawada", "text": "終わったら「完了」って教えてください。褒めますから。"}
+      ]
+    },
+    {
+      "id": "quiz_correct",
+      "trigger": "quiz_correct",
+      "affinity_min": 0,
+      "affinity_max": 100,
+      "lines": [
+        {"role": "kawada", "text": "おお、正解ですね。良かったです。"},
+        {"role": "kawada", "text": "この調子で次も取りに行きましょう。"}
+      ]
+    },
+    {
+      "id": "quiz_wrong",
+      "trigger": "quiz_wrong",
+      "affinity_min": 0,
+      "affinity_max": 100,
+      "lines": [
+        {"role": "kawada", "text": "惜しい。次ちょっとだけヒント出しますか？"},
+        {"role": "kawada", "text": "焦らなくていいですよ。一緒に解きましょう。"}
+      ]
+    },
+    {
+      "id": "gift_small",
+      "trigger": "gift_received",
+      "affinity_min": 0,
+      "affinity_max": 49,
+      "lines": [
+        {"role": "kawada", "text": "あ、ありがとう。ちょっと照れますね。"},
+        {"role": "kawada", "text": "大事にします。"}
+      ]
+    },
+    {
+      "id": "affinity_50_event",
+      "trigger": "affinity_threshold_50",
+      "affinity_min": 50,
+      "affinity_max": 79,
+      "lines": [
+        {"role": "kawada", "text": "50点達成ですね。特別な話を一つ——今日だけ、ちょっと真面目な話をしていいですか？"}
+      ]
+    },
+    {
+      "id": "affinity_80_event",
+      "trigger": "affinity_threshold_80",
+      "affinity_min": 80,
+      "affinity_max": 99,
+      "lines": [
+        {"role": "kawada", "text": "驚きました。ここまで続けてくれるとは思ってませんでしたよ。感謝してます。"},
+        {"role": "kawada", "text": "これからは少しだけ、肩の力抜いてもいいですよ。"}
+      ]
+    },
+    {
+      "id": "affinity_100_event",
+      "trigger": "affinity_threshold_100",
+      "affinity_min": 100,
+      "affinity_max": 100,
+      "lines": [
+        {"role": "kawada", "text": "……本当に、ありがとう。君がいるから続けられるんだ。"}
+      ]
+    }
+  ]
+}

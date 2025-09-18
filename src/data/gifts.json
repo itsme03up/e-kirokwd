@@ -1,0 +1,30 @@
+[
+  {
+    "id": "flower",
+    "name": "花",
+    "rarity": "common",
+    "affinity": 3,
+    "description": "きれいな花です。川田先生に喜んでもらえそう。"
+  },
+  {
+    "id": "coffee",
+    "name": "コーヒー",
+    "rarity": "uncommon",
+    "affinity": 8,
+    "description": "香り高いコーヒー。勉強の合間にぴったり。"
+  },
+  {
+    "id": "cake",
+    "name": "手作りケーキ",
+    "rarity": "rare",
+    "affinity": 20,
+    "description": "心を込めて作った特別なケーキ。"
+  },
+  {
+    "id": "book",
+    "name": "参考書",
+    "rarity": "uncommon",
+    "affinity": 12,
+    "description": "役立つ参考書。一緒に勉強しましょう。"
+  }
+]
